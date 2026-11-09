@@ -1,3 +1,5 @@
+[Evaluation Questions.docx](https://github.com/user-attachments/files/34590391/Evaluation.Questions.docx)
+
 # 🤖 AI-Powered E-Commerce Customer Support Agent
 
 An enterprise-grade, secure, and observable AI customer support agent for an e-commerce store. Built with **Gemini**, **LangGraph**, and **FastAPI**, this agent handles order inquiries, processes returns, searches store policies, and escalates to humans when necessary.
