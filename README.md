@@ -1,23 +1,23 @@
-# AI-Powered E-Commerce Customer Support Agent
+# 🤖 AI-Powered E-Commerce Customer Support Agent
 
-An AI agent that handles customer queries (order status, returns,
-refunds, escalations) using Gemini + LangGraph, with a Streamlit
-chat UI and FastAPI backend.
+An enterprise-grade, secure, and observable AI customer support agent for an e-commerce store. Built with **Gemini**, **LangGraph**, and **FastAPI**, this agent handles order inquiries, processes returns, searches store policies, and escalates to humans when necessary.
 
-**Status:** 🚧 Under construction — Phase 0 complete.
+## 🏗️ System Architecture
 
-## Quickstart
-
-1. Copy `.env.example` → `.env` and add your Gemini key.
-2. Create a virtual environment and install dependencies.
-3. (Phases 1–8 will fill in the rest.)
-
-## Architecture
-
-Customer → Streamlit → FastAPI → LangGraph + Gemini → Tools
-                                                        ↓
-                                                    SQLite + ChromaDB
-
-
-
-                                                    
+```text
+Customer 
+   │
+   ▼
+[Streamlit Frontend] (Chat UI + Agent Activity Panel)
+   │
+   ▼
+[FastAPI Backend] (REST API & Session Management)
+   │
+   ▼
+[LangGraph Workflow] 
+   ├── Input Guardrails (PII Masking, Distress Detection)
+   ├── Agent Node (Google Gemini 2.5/3.6 Flash)
+   └── Tool Node (Strict Python Business Logic)
+         │
+         ├── [PostgreSQL] (Customers, Orders, Returns)
+         └── [ChromaDB]   (Vector Store for Store Policies)
