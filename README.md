@@ -1,3 +1,5 @@
+<img width="1457" height="269" alt="ss2" src="https://github.com/user-attachments/assets/fdbace47-d2de-42cc-9179-ef4844f854d9" />
+<img width="1474" height="444" alt="SS1" src="https://github.com/user-attachments/assets/2bcd6d59-51fc-423e-a16c-70132ecc9f21" />
 
 # 🤖 AI-Powered E-Commerce Customer Support Agent
 
