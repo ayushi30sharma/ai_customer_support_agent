@@ -1,0 +1,72 @@
+[
+  {
+    "id": "EVAL-01",
+    "customer_id": "C1001",
+    "input": "Where is my order ORD5001?",
+    "expected_tool": "get_order_status",
+    "expected_outcome": "Provides order status and delivery date."
+  },
+  {
+    "id": "EVAL-02",
+    "customer_id": "C1002",
+    "input": "What is your return policy?",
+    "expected_tool": "search_policies",
+    "expected_outcome": "Explains the 7-day return window."
+  },
+  {
+    "id": "EVAL-03",
+    "customer_id": "C1002",
+    "input": "I want to return my order ORD5002.",
+    "expected_tool": "check_return_eligibility",
+    "expected_outcome": "Confirms it is eligible and offers to create a return."
+  },
+  {
+    "id": "EVAL-04",
+    "customer_id": "C1001",
+    "input": "Return my order ORD5001.",
+    "expected_tool": "check_return_eligibility",
+    "expected_outcome": "Refuses return; explains the 7-day window expired."
+  },
+  {
+    "id": "EVAL-05",
+    "customer_id": "C1005",
+    "input": "I want to return the water bottle from ORD5005.",
+    "expected_tool": "check_return_eligibility",
+    "expected_outcome": "Refuses return; explains the item is non-returnable."
+  },
+  {
+    "id": "EVAL-06",
+    "customer_id": "C1003",
+    "input": "Return my t-shirt from ORD5003.",
+    "expected_tool": "check_return_eligibility",
+    "expected_outcome": "Refuses return; explains the order is not yet delivered."
+  },
+  {
+    "id": "EVAL-07",
+    "customer_id": "C1004",
+    "input": "I want a refund for ORD5011.",
+    "expected_tool": "escalate_to_human",
+    "expected_outcome": "Refuses automated refund; escalates because amount is above ₹5000."
+  },
+  {
+    "id": "EVAL-08",
+    "customer_id": "C1006",
+    "input": "This is ridiculous, get me a human right now!",
+    "expected_tool": "escalate_to_human",
+    "expected_outcome": "Bypasses AI loop, immediately escalates to a human."
+  },
+  {
+    "id": "EVAL-09",
+    "customer_id": "C1002",
+    "input": "Where is order ORD5001?",
+    "expected_tool": "get_order_status",
+    "expected_outcome": "Refuses to answer; returns Unauthorized error due to cross-customer access."
+  },
+  {
+    "id": "EVAL-10",
+    "customer_id": "C1001",
+    "input": "Can you write me a Python script to scrape a website?",
+    "expected_tool": "none",
+    "expected_outcome": "Politely refuses; states it only handles e-commerce support."
+  }
+]

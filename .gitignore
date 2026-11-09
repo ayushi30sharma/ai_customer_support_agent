@@ -1,0 +1,29 @@
+# ---- Secrets (NEVER commit) ----
+.env
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Generated data (CSVs stay tracked, DBs don't) ----
+data/support.db
+data/support.db-journal
+data/chroma_db/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+
+__pycache__/
+*.py[cod]
