@@ -1,7 +1,3 @@
-<img width="1474" height="444" alt="SS1" src="https://github.com/user-attachments/assets/2bcd6d59-51fc-423e-a16c-70132ecc9f21" />
-<img width="1457" height="269" alt="ss2" src="https://github.com/user-attachments/assets/fdbace47-d2de-42cc-9179-ef4844f854d9" />
-
-
 # 🤖 AI-Powered E-Commerce Customer Support Agent
 
 An enterprise-grade, secure, and observable AI customer support agent for an e-commerce store. Built with **Gemini**, **LangGraph**, and **FastAPI**, this agent handles order inquiries, processes returns, searches store policies, and escalates to humans when necessary.
@@ -26,3 +22,4 @@ Customer
          ├── [PostgreSQL] (Customers, Orders, Returns)
          └── [ChromaDB]   (Vector Store for Store Policies)
 
+<img width="1478" height="298" alt="ss9" src="https://github.com/user-attachments/assets/21c02d72-2dd8-4f11-9327-77eecc13ddbb" />
