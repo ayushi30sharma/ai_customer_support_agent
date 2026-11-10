@@ -22,6 +22,8 @@ Customer
          ├── [PostgreSQL] (Customers, Orders, Returns)
          └── [ChromaDB]   (Vector Store for Store Policies)
 ```
+**#EVALUATION QUESTIONS
+**
 
 <img width="1474" height="444" alt="SS1" src="https://github.com/user-attachments/assets/9803acd3-dfdf-444c-b7fb-00452eb94a2c" />
 <img width="1457" height="269" alt="ss2" src="https://github.com/user-attachments/assets/cbe5588a-c644-4dcb-beb4-60f19f40b774" />
